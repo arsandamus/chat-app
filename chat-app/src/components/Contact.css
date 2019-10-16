@@ -23,8 +23,6 @@
   
   /* Status text */
   .Contact .status .status-text {
-    display: flex;
-    flex-direction: row;
     color: #999;
     margin: 0;
   }
