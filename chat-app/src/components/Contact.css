@@ -26,6 +26,10 @@
     color: #999;
     margin: 0;
   }
+
+  .status :hover {
+    cursor: pointer;
+  }
   
   /* Status (rounded&colored indicator) */
   .Contact .status .status-online,

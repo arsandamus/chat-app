@@ -4,7 +4,7 @@ import Contact from "./Contact";
 const users = [
   {
     name:"Felecia Ryan",
-    avatar:"https://randomuser.me/api/portraits/women/59.jpg",
+    avatar:"https://randomuser.me/api/portraits/men/16.jpg",
     online:true
   },
   {
@@ -32,7 +32,7 @@ const users = [
 const ContactList = () => (
   <div>
     {users.map(item => (
-  <Contact name={item.name} image={item.avatar} online={item.online}/>
+  <Contact name={item.name} avatar={item.avatar} online={item.online}/>
 ))}
   </div>
 );
